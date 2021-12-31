@@ -1,0 +1,155 @@
+body{
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+    font-family:'Poppins', sans-serif;
+}
+
+.left{
+    margin: 15% 0%;
+    padding-left: 5%;
+}
+
+.left h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+
+.left p{
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.headword{
+    background: #5d54a3;
+    margin: 10% 10% 0;
+    border-radius: 5px;
+}
+
+.headword p{
+    padding: 15px;
+    font-size: 14px;
+}
+
+form{
+    background: white;
+    margin-left: 10%;
+    width: 80%;
+    position: relative;
+    padding: 2% 0;
+    border-radius: 5px;
+}
+
+input{
+    padding: 10px 0 10px 15px;
+    margin: 5% 9% 1%;
+    width: 80%;
+    border: 1px solid gray;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+button{
+    width: 80%;
+    margin: 7% 9% 2%;
+    padding: 10px 0;
+    background: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.disc{
+    font-size: 9px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.32); 
+}
+
+form span a{
+    color:hsl(0, 100%, 74%) ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text {
+    margin: 0;
+}
+
+.invalid{
+    border: 2px solid hsl(0, 100%, 74%);   
+}
+
+.valid{
+    border: 2px solid hsl(154, 59%, 51%);
+}
+
+.formcontent,.formcontentem{
+    position: relative;
+}
+.error,.errorem{
+    color: rgb(255, 122, 122);
+    position: absolute;
+    top: 45%;
+    left: 83%;
+    display: inline;
+}
+
+.errortext,.errortextem{
+    position:relative;
+    top: 10px;
+    right: 145px;
+    font-size: 12px;
+    font-style: italic;
+    width: 200px;
+    margin:3px
+}
+
+@media(max-width : 376px){
+    body{
+        background-image: url(images/bg-intro-mobile.png);
+    }
+    .left{
+        margin: 23% 0 10%;
+        padding: 0 10%;
+        text-align: center;
+    }
+
+    .left h1{
+        font-size: 30px;
+    }
+
+    .headword p{
+        margin: 10% 15%;
+    }
+
+    button{
+        font-weight: normal;
+        font-size: 13px;
+    }
+
+    .disc{
+        text-align: center;
+        margin: 2% 10% 5%;
+    }
+
+    .error,.errorem{
+        top: 38%;
+        left: 80%;
+        width: 25px;
+    }
+
+    .errortext,.errortextem{
+        font-size:10px;
+        top: 6px;
+        right: 120px;
+    }
+
+    .attribution{
+        margin-top: 50px;
+    }
+}
